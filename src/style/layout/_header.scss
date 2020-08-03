@@ -1,0 +1,53 @@
+.header {
+  height: 50vh;
+  position: relative;
+  background: linear-gradient(180deg, $mainColor, $secondaryColor);
+  border-radius: 5px;
+
+  h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  nav {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    a {
+      margin: 0 3rem;
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  html {
+    font-size: 4px;
+  }
+
+  .header {
+    nav {
+      top: 80%;
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 5px;
+  }
+
+  .header {
+    nav {
+      top: 70%;
+      display: flex;
+    }
+  }
+}

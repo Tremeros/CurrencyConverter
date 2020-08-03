@@ -1,0 +1,159 @@
+.counter {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .amount {
+      margin: 2rem 0;
+    }
+
+    button {
+      max-width: 10rem;
+
+      background-color: $lightColor;
+      color: $whiteColor;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    span {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  html {
+    font-size: 4px;
+  }
+
+  .counter {
+    .container {
+      button {
+        max-width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+
+      span {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 5px;
+  }
+
+  .counter {
+    .container {
+      button {
+        max-width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+
+      span {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) and (min-width: 427px) {
+  html {
+    font-size: 6px;
+  }
+
+  .counter {
+    .container {
+      button {
+        max-width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+
+      span {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 770px) {
+  html {
+    font-size: 6px;
+  }
+
+  .counter {
+    .container {
+      button {
+        max-width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+
+      span {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1441px) and (min-width: 1026px) {
+  html {
+    font-size: 6px;
+  }
+
+  .counter {
+    .container {
+      button {
+        max-width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+
+      span {
+        font-size: 4rem;
+      }
+    }
+  }
+}

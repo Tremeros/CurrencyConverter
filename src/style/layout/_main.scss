@@ -1,0 +1,98 @@
+.main,
+.counter {
+  padding: 1rem;
+  .container {
+    max-width: 130rem;
+    padding: 5rem;
+    margin: 0 auto;
+    background-color: $grayColor;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  &__list__element {
+    div {
+      font-size: 4rem;
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  html {
+    font-size: 4px;
+  }
+
+  .main {
+    &__list__element {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 427px) {
+  html {
+    font-size: 6px;
+  }
+
+  .main {
+    &__list__element {
+      div {
+        padding: 1rem;
+      }
+    }
+    .container {
+      h1 {
+        font-size: 6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 770px) {
+  html {
+    font-size: 6px;
+  }
+
+  .main {
+    .container {
+      h1 {
+        font-size: 6rem;
+      }
+    }
+
+    &__list__element {
+      div {
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1441px) and (min-width: 1026px) {
+  html {
+    font-size: 6px;
+  }
+
+  .main {
+    .container {
+      h1 {
+        font-size: 6rem;
+      }
+    }
+
+    &__list__element {
+      div {
+        padding: 1rem;
+      }
+    }
+  }
+}
